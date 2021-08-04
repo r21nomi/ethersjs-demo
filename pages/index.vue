@@ -40,6 +40,9 @@ export default class TopPage extends Vue {
       console.log(signature)
       // let recoveredAddress = ethers.utils.recoverAddress(h, signature)
       // console.log(recoveredAddress)
+
+      // TODO: Call API
+      // http://localhost:9000/v1/auth/[signature]?message=[message]&address=[address]
     } catch (e) {
       console.log(e)
     }
